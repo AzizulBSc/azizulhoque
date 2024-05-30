@@ -244,11 +244,11 @@ h6 {
   background: url("../img/IMG_20240531_013902.jpg") top center;
   background-size: cover;
 }
-@media (max-width: 768px) {
-    #hero {
-      background-image: url("../img/IMG_20240531_013902_mobile.jpg");
-    }
+@media (max-width: 950px) {
+  #hero {
+    background-position: center top;
   }
+}
 
 #hero:before {
   content: "";
