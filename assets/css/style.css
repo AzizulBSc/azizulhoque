@@ -1,6 +1,6 @@
 /**
 * Template Name:Azizul Hoque
-* Template URL: https://azizulbsc.github.io/azizulhoque/iportfolio-bootstrap-portfolio-websites-template/
+* Template URL: https://azizulbsc.github.io/azizulhoque
 * Updated: Mar 17 2024 with Bootstrap v5.3.3
 * Author: Azizul Hoque.com
 * License: https://azizulbsc.github.io/azizulhoque/license/
@@ -244,6 +244,11 @@ h6 {
   background: url("../img/IMG_20240531_013902.jpg") top center;
   background-size: cover;
 }
+@media (max-width: 768px) {
+    #hero {
+      background-image: url("../img/IMG_20240531_013902_mobile.jpg");
+    }
+  }
 
 #hero:before {
   content: "";
