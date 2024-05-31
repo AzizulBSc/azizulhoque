@@ -261,3 +261,24 @@
   new PureCounter();
 
 })()
+// Function to calculate age based on birthdate
+function calculateAge(birthDate) {
+    const today = new Date();
+    const birthDateObj = new Date(birthDate);
+    let age = today.getFullYear() - birthDateObj.getFullYear();
+    const monthDifference = today.getMonth() - birthDateObj.getMonth();
+
+    // Adjust if the birthday hasn't occurred yet this year
+    if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDateObj.getDate())) {
+        age--;
+    }
+
+    return age;
+}
+
+// Example usage
+const birthDate = '1997-04-12';  // You can change this to any birthdate
+const age = calculateAge(birthDate);
+
+// Place the age in the span with id "age"
+document.getElementById('age').textContent = age;
