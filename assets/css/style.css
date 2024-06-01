@@ -45,7 +45,7 @@ h6 {
   bottom: 15px;
   z-index: 996;
   /* background: #149ddd; */
-  background: #07112e;
+  background: #031e4c;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -218,7 +218,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #07112e;
+  background-color: #031e4c;
   color: #fff;
   width: 40px;
   height: 40px;
