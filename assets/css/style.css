@@ -15,6 +15,7 @@ body {
 }
 
 a {
+
   color: #149ddd;
   text-decoration: none;
 }
@@ -43,7 +44,8 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  /* background: #149ddd; */
+  background: #07112e;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -79,7 +81,8 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  /* background: #040b14; */
+  background: #07112e;
   overflow-y: auto;
 }
 
@@ -215,7 +218,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #07112e;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -717,10 +720,12 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  /* background: #149ddd; */
+  background: #07112e;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  /* border: 1px solid #149ddd; */
+  border: 1px solid #07112e;
 }
 
 .services .icon i {
@@ -938,7 +943,6 @@ section {
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
-
 .contact .php-email-form .validate {
   display: none;
   color: red;
@@ -1023,7 +1027,6 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
-
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1093,7 +1096,8 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  /* background: #040b14; */
+  background: #07112e;
 }
 
 #footer .copyright {
